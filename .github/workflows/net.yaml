@@ -52,5 +52,5 @@ jobs:
         run: |
           msbuild ./WebForms/WebForms.csproj /t:Restore
           .sonar/scanner/dotnet-sonarscanner begin /k:"Sonar-AspNetWebForm" /o:"bwan109" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="https://sonarcloud.io"
-          msbuild ./WebForms/WebForms.csproj /t:Rebuild
+          msbuild WebForms.sln /t:Rebuild
           .sonar/scanner/dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
