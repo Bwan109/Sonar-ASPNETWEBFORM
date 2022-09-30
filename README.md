@@ -1,12 +1,12 @@
 ## Automate SonarQube with Github Actions for ASP.NET WebForms 
 
 
-#### Pre Requirements: 
+#### **Pre Requirements**: 
 - Identify the written programming language of the source codes. 
 - Ensure source codes are uploaded on a Github Repository.
 - Ensure it is able to access (sonarq.uemedgenta.com) website and Login. 
 
-##### **Steps**
+#### **Steps:**
 1) Access SonarQube Website. And Login
 2) Create new project manually 
 3) Configure Github Actions for SonarQube
