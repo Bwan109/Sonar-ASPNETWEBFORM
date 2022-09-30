@@ -11,7 +11,7 @@
 2) Create new project manually 
 3) Configure Github Actions for SonarQube
 4) Creating Secrets in Github Repo  https://github.com/Azure/actions-workflow-samples/blob/master/assets/create-secrets-for-GitHub-workflows.md (Look into Creating Secrets section in this link)
-5) Follow the instructions: 
+5) Follow the instructions: (This is an Example, so follow based on your SonarQube project)
 <img width="299" alt="image" src="https://user-images.githubusercontent.com/112849069/193206938-a5729929-8dcf-4e6b-9e30-cdf96ef4c770.png">
 
 6) Create a Github Action in Github Repo https://www.youtube.com/watch?v=KUxg-7U9EKM&ab_channel=CameronMcKenzie
